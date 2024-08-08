@@ -1,0 +1,803 @@
+[
+    {
+      "id": "0",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRrEM-6gDUO7g1cdrNhBaqk_0nwxy6ILlIqsQ&usqp=CAU",
+      "name": "FULL BODY",
+      "description": "7x4 CHALLENGE",
+      "excersises": [
+        {
+          "id": "10",
+          "image": "https://sworkit.com/wp-content/uploads/2020/06/sworkit-jumping-jack.gif",
+          "name": "JUMPING JACKS",
+          "sets": 12
+        },
+        {
+          "id": "11",
+          "image": "https://177d01fbswx3jjl1t20gdr8j-wpengine.netdna-ssl.com/wp-content/uploads/2019/06/Incline-Push-Up.gif",
+          "name": "INCLINE PUSH-UPS",
+          "sets": 10
+        },
+        {
+          "id": "12",
+          "image": "https://media.self.com/photos/583c641ca8746f6e65a60c7e/master/w_1600%2Cc_limit/DIAMOND_PUSHUP_MOTIFIED.gif",
+          "name": "INCLINED PUSH-UPS",
+          "sets": 10
+        },
+        {
+          "id": "13",
+          "image": "https://cdn.prod.openfit.com/uploads/2020/03/10162714/wide-arm-push-up.gif",
+          "name": "WIDE ARM PUSH-UPS",
+          "sets": 12
+        },
+        {
+          "id": "14",
+          "image": "https://www.yogajournal.com/wp-content/uploads/2021/12/Cobra.gif?width=730",
+          "name": "COBRA STRETCH",
+          "sets": 10
+        },
+        {
+          "id": "15",
+          "image": "https://www.vissco.com/wp-content/uploads/animation/sub/double-knee-to-chest-stretch.gif",
+          "name": "CHEST STRETCH",
+          "sets": 10
+        }
+      ]
+    },
+    {
+      "id": "1",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRonpSjpGQ2-JD8-XFFD7LYsVSFCOiASj0wSOq1qxNvxGFHe7W6AU1LRAeJ2fOIzYICMGc&usqp=CAU",
+      "name": "ABS BEGINNER",
+      "description": "7x4 CHALLENGE",
+      "excersises": [
+        {
+          "id": "90",
+          "image": "https://media1.popsugar-assets.com/files/thumbor/f2sbzQY1h1zqiGEV9Mhr1IAcFMU/fit-in/2048xorig/filters:format_auto-!!-:strip_icc-!!-/2017/03/13/796/n/1922729/19cf2a4428446429_EXAMPLE.crossjacks.gif",
+          "name": "JUMPING JACKS",
+          "sets": 12
+        },
+        {
+          "id": "91",
+          "image": "https://i.pinimg.com/originals/18/27/be/1827be178c019b1dc6f8a8d8b4a7b0b8.gif",
+          "name": "MOUNTAIN CLIMBERS",
+          "sets": 10
+        },
+        {
+          "id": "92",
+          "image": "https://i.pinimg.com/originals/f4/b0/f3/f4b0f3093fcadd64968e4c46d1767b50.gif",
+          "name": "HEEL TOUCH",
+          "sets": 20
+        },
+        {
+          "id": "94",
+          "image": "https://i.pinimg.com/originals/cf/b5/67/cfb5677a755fe7288b608a4fec6f09a0.gif",
+          "name": "PLANK",
+          "sets": 10
+        },
+        {
+          "id": "95",
+          "image": "https://www.gymguider.com/wp-content/uploads/2017/10/straight-leg-raise.gif",
+          "name": "LEG RAISES",
+          "sets": 14
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT1NHvoutGn-Vr_uwVbOOtezhENvx9jhV6pfQ&usqp=CAU",
+      "name": "ARM BEGINNER",
+      "description": "7x4 CHALLENGE",
+      "excersises": [
+        {
+          "id": "70",
+          "image": "https://post.healthline.com/wp-content/uploads/2020/06/400x400_How_to_do_Zac_Efrons_Baywatch_Workout_Dumbbell_Lateral_Raise.gif",
+          "name": "ARM RAISES",
+          "sets": 8
+        },
+        {
+          "id": "71",
+          "image": "https://thumbs.gfycat.com/CompleteZigzagFossa-max-1mb.gif",
+          "name": "TRICEP DIPS",
+          "sets": 10
+        },
+        {
+          "id": "72",
+          "image": "https://thumbs.gfycat.com/MisguidedAridAlaskanmalamute-max-1mb.gif",
+          "name": "DIAMOND PUSH-UP",
+          "sets": 10
+        },
+        {
+          "id": "73",
+          "image": "https://c.tenor.com/gI-8qCUEko8AAAAC/pushup.gif",
+          "name": "PUSH-UPS",
+          "sets": 10
+        },
+        {
+          "id": "74",
+          "image": "https://i.pinimg.com/originals/8c/53/27/8c532774e4e1c524576bf1fb829ad895.gif",
+          "name": "DUMBELL CURL",
+          "sets": 11
+        },
+        {
+          "id": "75",
+          "image": "https://www.vissco.com/wp-content/uploads/animation/sub/inch-worm.gif",
+          "name": "INCH WORMS",
+          "sets": 5
+        },
+        {
+          "id": "76",
+          "image": "https://c.tenor.com/jqwaOmRs-7gAAAAC/tricep-kick-back-tricep.gif",
+          "name": "TRICEP LIFT",
+          "sets": 8
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSqCT0tewpNAZ6R9JUoMDHIHGnpE44U2Fl1Zw&usqp=CAU",
+      "name": "CHEST BEGINNER",
+      "description": "7x4 CHALLENGE",
+      "excersises": [
+        {
+          "id": "20",
+          "image": "https://i.pinimg.com/originals/ff/cf/40/ffcf40474f0758dfedebc823f5532aa1.gif",
+          "name": "DECLINE PUSH-UPS",
+          "sets": 9
+        },
+        {
+          "id": "21",
+          "image": "https://image.2bstronger.com/article/fitness/the-14-toughest-do-anywhere-workout-moves-56348/1006.gif",
+          "name": "HINDU PUSH-UPS",
+          "sets": 10
+        },
+        {
+          "id": "22",
+          "image": "https://thumbs.gfycat.com/TheseRigidBorer-size_restricted.gif",
+          "name": "SHOULDER STRETCH",
+          "sets": 5
+        },
+        {
+          "id": "23",
+          "image": "https://thumbs.gfycat.com/AlertAfraidAldabratortoise-max-1mb.gif",
+          "name": "COBRA STRETCH",
+          "sets": 4
+        },
+        {
+          "id": "25",
+          "image": "https://media4.popsugar-assets.com/files/thumbor/BaWEAcCjtJEjiwf3PqJHnZ_S23A/fit-in/2048xorig/filters:format_auto-!!-:strip_icc-!!-/2016/08/10/766/n/1922729/1eae2dcf3d395379_PushUpTwist.gif",
+          "name": "PUSH-UP & ROTATION",
+          "sets": 12
+        },
+        {
+          "id": "26",
+          "image": "https://media3.popsugar-assets.com/files/thumbor/0Xiqpo7pxrKz5CKcRl7XYrKegko/fit-in/1024x1024/filters:format_auto-!!-:strip_icc-!!-/2014/02/27/847/n/1922729/1baf9ec0f5ce4ea9_burpee.3.gif",
+          "name": "BURPEES",
+          "sets": 10
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "image": "https://example.com/image5.jpg",
+      "name": "LEG DAY",
+      "description": "LEG CHALLENGE",
+      "excersises": [
+        {
+          "id": "101",
+          "image": "https://example.com/exercise1.gif",
+          "name": "SQUATS",
+          "sets": 15
+        },
+        {
+          "id": "102",
+          "image": "https://example.com/exercise2.gif",
+          "name": "LUNGES",
+          "sets": 12
+        },
+        {
+          "id": "103",
+          "image": "https://example.com/exercise3.gif",
+          "name": "LEG CURLS",
+          "sets": 10
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "image": "https://example.com/image6.jpg",
+      "name": "GLUTES WORKOUT",
+      "description": "BOOTY CHALLENGE",
+      "excersises": [
+        {
+          "id": "111",
+          "image": "https://example.com/exercise4.gif",
+          "name": "GLUTE BRIDGE",
+          "sets": 12
+        },
+        {
+          "id": "112",
+          "image": "https://example.com/exercise5.gif",
+          "name": "DONKEY KICKS",
+          "sets": 10
+        },
+        {
+          "id": "113",
+          "image": "https://example.com/exercise6.gif",
+          "name": "FIRE HYDRANTS",
+          "sets": 10
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "image": "https://example.com/image7.jpg",
+      "name": "CARDIO BURN",
+      "description": "HEART PUMP",
+      "excersises": [
+        {
+          "id": "121",
+          "image": "https://example.com/exercise7.gif",
+          "name": "BURPEES",
+          "sets": 15
+        },
+        {
+          "id": "122",
+          "image": "https://example.com/exercise8.gif",
+          "name": "HIGH KNEES",
+          "sets": 20
+        },
+        {
+          "id": "123",
+          "image": "https://example.com/exercise9.gif",
+          "name": "SKIPPING",
+          "sets": 30
+        }
+      ]
+    },
+    {
+      "id": "7",
+      "image": "https://example.com/image8.jpg",
+      "name": "SHOULDER SHRED",
+      "description": "UPPER BODY",
+      "excersises": [
+        {
+          "id": "131",
+          "image": "https://example.com/exercise10.gif",
+          "name": "SHOULDER PRESS",
+          "sets": 10
+        },
+        {
+          "id": "132",
+          "image": "https://example.com/exercise11.gif",
+          "name": "LATERAL RAISES",
+          "sets": 10
+        },
+        {
+          "id": "133",
+          "image": "https://example.com/exercise12.gif",
+          "name": "FRONT RAISES",
+          "sets": 10
+        }
+      ]
+    },
+    {
+      "id": "8",
+      "image": "https://example.com/image9.jpg",
+      "name": "CORE BLAST",
+      "description": "ABS WORKOUT",
+      "excersises": [
+        {
+          "id": "141",
+          "image": "https://example.com/exercise13.gif",
+          "name": "CRUNCHES",
+          "sets": 15
+        },
+        {
+          "id": "142",
+          "image": "https://example.com/exercise14.gif",
+          "name": "PLANK",
+          "sets": 20
+        },
+        {
+          "id": "143",
+          "image": "https://example.com/exercise15.gif",
+          "name": "LEG RAISES",
+          "sets": 14
+        }
+      ]
+    },
+    {
+      "id": "9",
+      "image": "https://example.com/image10.jpg",
+      "name": "BACK STRENGTH",
+      "description": "SPINE HEALTH",
+      "excersises": [
+        {
+          "id": "151",
+          "image": "https://example.com/exercise16.gif",
+          "name": "DEADLIFT",
+          "sets": 12
+        },
+        {
+          "id": "152",
+          "image": "https://example.com/exercise17.gif",
+          "name": "BENT-OVER ROW",
+          "sets": 10
+        },
+        {
+          "id": "153",
+          "image": "https://example.com/exercise18.gif",
+          "name": "LAT PULLDOWN",
+          "sets": 10
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "image": "https://example.com/image11.jpg",
+      "name": "CORE POWER",
+      "description": "CORE CHALLENGE",
+      "excersises": [
+        {
+          "id": "161",
+          "image": "https://example.com/exercise19.gif",
+          "name": "PLANK",
+          "sets": 15
+        },
+        {
+          "id": "162",
+          "image": "https://example.com/exercise20.gif",
+          "name": "RUSSIAN TWISTS",
+          "sets": 20
+        },
+        {
+          "id": "163",
+          "image": "https://example.com/exercise21.gif",
+          "name": "SIT-UPS",
+          "sets": 25
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "image": "https://example.com/image12.jpg",
+      "name": "MOBILITY BOOST",
+      "description": "FLEXIBILITY",
+      "excersises": [
+        {
+          "id": "171",
+          "image": "https://example.com/exercise22.gif",
+          "name": "HIP OPENER",
+          "sets": 10
+        },
+        {
+          "id": "172",
+          "image": "https://example.com/exercise23.gif",
+          "name": "HAMSTRING STRETCH",
+          "sets": 12
+        },
+        {
+          "id": "173",
+          "image": "https://example.com/exercise24.gif",
+          "name": "QUAD STRETCH",
+          "sets": 10
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "image": "https://example.com/image13.jpg",
+      "name": "STAMINA BUILDER",
+      "description": "ENDURANCE TRAINING",
+      "excersises": [
+        {
+          "id": "181",
+          "image": "https://example.com/exercise25.gif",
+          "name": "LONG JUMP",
+          "sets": 10
+        },
+        {
+          "id": "182",
+          "image": "https://example.com/exercise26.gif",
+          "name": "SPRINTS",
+          "sets": 15
+        },
+        {
+          "id": "183",
+          "image": "https://example.com/exercise27.gif",
+          "name": "BOX JUMPS",
+          "sets": 12
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "image": "https://example.com/image14.jpg",
+      "name": "BALANCE TRAINING",
+      "description": "BALANCE & CONTROL",
+      "excersises": [
+        {
+          "id": "191",
+          "image": "https://example.com/exercise28.gif",
+          "name": "ONE-LEG STAND",
+          "sets": 5
+        },
+        {
+          "id": "192",
+          "image": "https://example.com/exercise29.gif",
+          "name": "BALANCE BOARD",
+          "sets": 8
+        },
+        {
+          "id": "193",
+          "image": "https://example.com/exercise30.gif",
+          "name": "SIDE PLANK",
+          "sets": 10
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "image": "https://example.com/image15.jpg",
+      "name": "POWER CIRCUIT",
+      "description": "HIGH INTENSITY",
+      "excersises": [
+        {
+          "id": "201",
+          "image": "https://example.com/exercise31.gif",
+          "name": "SQUAT JUMPS",
+          "sets": 12
+        },
+        {
+          "id": "202",
+          "image": "https://example.com/exercise32.gif",
+          "name": "BURPEES",
+          "sets": 15
+        },
+        {
+          "id": "203",
+          "image": "https://example.com/exercise33.gif",
+          "name": "KETTLEBELL SWINGS",
+          "sets": 20
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "image": "https://example.com/image16.jpg",
+      "name": "MUSCLE MASS",
+      "description": "STRENGTH BUILDING",
+      "excersises": [
+        {
+          "id": "211",
+          "image": "https://example.com/exercise34.gif",
+          "name": "BENCH PRESS",
+          "sets": 10
+        },
+        {
+          "id": "212",
+          "image": "https://example.com/exercise35.gif",
+          "name": "DEADLIFT",
+          "sets": 12
+        },
+        {
+          "id": "213",
+          "image": "https://example.com/exercise36.gif",
+          "name": "SQUATS",
+          "sets": 15
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "image": "https://example.com/image17.jpg",
+      "name": "CIRCUIT TRAINING",
+      "description": "FULL BODY CIRCUIT",
+      "excersises": [
+        {
+          "id": "221",
+          "image": "https://example.com/exercise37.gif",
+          "name": "PUSH-UPS",
+          "sets": 10
+        },
+        {
+          "id": "222",
+          "image": "https://example.com/exercise38.gif",
+          "name": "JUMPING JACKS",
+          "sets": 15
+        },
+        {
+          "id": "223",
+          "image": "https://example.com/exercise39.gif",
+          "name": "SQUATS",
+          "sets": 20
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "image": "https://example.com/image18.jpg",
+      "name": "HYPERTROPHY",
+      "description": "MUSCLE GROWTH",
+      "excersises": [
+        {
+          "id": "231",
+          "image": "https://example.com/exercise40.gif",
+          "name": "BICEP CURLS",
+          "sets": 12
+        },
+        {
+          "id": "232",
+          "image": "https://example.com/exercise41.gif",
+          "name": "TRICEP EXTENSIONS",
+          "sets": 10
+        },
+        {
+          "id": "233",
+          "image": "https://example.com/exercise42.gif",
+          "name": "CHEST PRESS",
+          "sets": 10
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "image": "https://example.com/image19.jpg",
+      "name": "BODYWEIGHT BLAST",
+      "description": "NO EQUIPMENT",
+      "excersises": [
+        {
+          "id": "241",
+          "image": "https://example.com/exercise43.gif",
+          "name": "PUSH-UPS",
+          "sets": 10
+        },
+        {
+          "id": "242",
+          "image": "https://example.com/exercise44.gif",
+          "name": "PLANK",
+          "sets": 15
+        },
+        {
+          "id": "243",
+          "image": "https://example.com/exercise45.gif",
+          "name": "BURPEES",
+          "sets": 20
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "image": "https://example.com/image20.jpg",
+      "name": "CARDIO CRUSHER",
+      "description": "CARDIO INTENSITY",
+      "excersises": [
+        {
+          "id": "251",
+          "image": "https://example.com/exercise46.gif",
+          "name": "RUNNING",
+          "sets": 20
+        },
+        {
+          "id": "252",
+          "image": "https://example.com/exercise47.gif",
+          "name": "JUMP ROPE",
+          "sets": 25
+        },
+        {
+          "id": "253",
+          "image": "https://example.com/exercise48.gif",
+          "name": "HIGH KNEES",
+          "sets": 30
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "image": "https://example.com/image21.jpg",
+      "name": "PLYOMETRICS",
+      "description": "EXPLOSIVE POWER",
+      "excersises": [
+        {
+          "id": "261",
+          "image": "https://example.com/exercise49.gif",
+          "name": "BOX JUMPS",
+          "sets": 12
+        },
+        {
+          "id": "262",
+          "image": "https://example.com/exercise50.gif",
+          "name": "LATERAL JUMPS",
+          "sets": 15
+        },
+        {
+          "id": "263",
+          "image": "https://example.com/exercise51.gif",
+          "name": "BROAD JUMPS",
+          "sets": 10
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "image": "https://example.com/image22.jpg",
+      "name": "POWER STRENGTH",
+      "description": "HEAVY LIFTING",
+      "excersises": [
+        {
+          "id": "271",
+          "image": "https://example.com/exercise52.gif",
+          "name": "BENCH PRESS",
+          "sets": 10
+        },
+        {
+          "id": "272",
+          "image": "https://example.com/exercise53.gif",
+          "name": "DEADLIFT",
+          "sets": 12
+        },
+        {
+          "id": "273",
+          "image": "https://example.com/exercise54.gif",
+          "name": "SQUATS",
+          "sets": 15
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "image": "https://example.com/image23.jpg",
+      "name": "AGILITY TRAINING",
+      "description": "SPEED & REACTION",
+      "excersises": [
+        {
+          "id": "281",
+          "image": "https://example.com/exercise55.gif",
+          "name": "LADDER DRILLS",
+          "sets": 15
+        },
+        {
+          "id": "282",
+          "image": "https://example.com/exercise56.gif",
+          "name": "SIDE SHUFFLE",
+          "sets": 12
+        },
+        {
+          "id": "283",
+          "image": "https://example.com/exercise57.gif",
+          "name": "DOT DRILL",
+          "sets": 20
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "image": "https://example.com/image24.jpg",
+      "name": "RECOVERY DAY",
+      "description": "STRETCH & RELAX",
+      "excersises": [
+        {
+          "id": "291",
+          "image": "https://example.com/exercise58.gif",
+          "name": "CHILD'S POSE",
+          "sets": 5
+        },
+        {
+          "id": "292",
+          "image": "https://example.com/exercise59.gif",
+          "name": "CAT-COW STRETCH",
+          "sets": 10
+        },
+        {
+          "id": "293",
+          "image": "https://example.com/exercise60.gif",
+          "name": "HAMSTRING STRETCH",
+          "sets": 8
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "image": "https://example.com/image25.jpg",
+      "name": "CORE INTENSITY",
+      "description": "ABDOMINAL STRENGTH",
+      "excersises": [
+        {
+          "id": "301",
+          "image": "https://example.com/exercise61.gif",
+          "name": "LEG RAISES",
+          "sets": 15
+        },
+        {
+          "id": "302",
+          "image": "https://example.com/exercise62.gif",
+          "name": "BICYCLE CRUNCHES",
+          "sets": 20
+        },
+        {
+          "id": "303",
+          "image": "https://example.com/exercise63.gif",
+          "name": "RUSSIAN TWISTS",
+          "sets": 25
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "image": "https://example.com/image26.jpg",
+      "name": "GLUTE GAINS",
+      "description": "GLUTES FOCUS",
+      "excersises": [
+        {
+          "id": "311",
+          "image": "https://example.com/exercise64.gif",
+          "name": "HIP THRUST",
+          "sets": 12
+        },
+        {
+          "id": "312",
+          "image": "https://example.com/exercise65.gif",
+          "name": "FIRE HYDRANTS",
+          "sets": 15
+        },
+        {
+          "id": "313",
+          "image": "https://example.com/exercise66.gif",
+          "name": "LUNGES",
+          "sets": 20
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "image": "https://example.com/image27.jpg",
+      "name": "FLEXIBILITY FOCUS",
+      "description": "FLEXIBILITY TRAINING",
+      "excersises": [
+        {
+          "id": "321",
+          "image": "https://example.com/exercise67.gif",
+          "name": "FORWARD BEND",
+          "sets": 10
+        },
+        {
+          "id": "322",
+          "image": "https://example.com/exercise68.gif",
+          "name": "HIP OPENER",
+          "sets": 12
+        },
+        {
+          "id": "323",
+          "image": "https://example.com/exercise69.gif",
+          "name": "SIDE BEND",
+          "sets": 10
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "image": "https://example.com/image28.jpg",
+      "name": "CARDIO BLAST",
+      "description": "INTENSE CARDIO",
+      "excersises": [
+        {
+          "id": "331",
+          "image": "https://example.com/exercise70.gif",
+          "name": "JUMP ROPE",
+          "sets": 20
+        },
+        {
+          "id": "332",
+          "image": "https://example.com/exercise71.gif",
+          "name": "BURPEES",
+          "sets": 15
+        },
+        {
+          "id": "333",
+          "image": "https://example.com/exercise72.gif",
+          "name": "HIGH KNEES",
+          "sets": 30
+        }
+      ]
+    }
+  ]
+  
