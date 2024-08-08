@@ -1,15 +1,18 @@
 import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View } from 'react-native';
+import { Pressable, StyleSheet, Text, View } from 'react-native';
+import { Link } from 'expo-router';
 
 export default function ExerciseListItem({item}) {
   return( 
-  <View style={styles.exerciseContainer}>
-    <Text style={styles.exerciseName}>{item.name}</Text>
-    <Text style={styles.exerciseSubtitle}>
-      {item.muscle.toLocaleUpperCase()} | {item.equipment.toLocaleUpperCase()}
-      </Text>
-    <StatusBar style="auto" />
-  </View>
+   <Link href={`/${item.name}`} asChild> 
+    <Pressable style={styles.exerciseContainer}>
+      <Text style={styles.exerciseName}>{item.name}</Text>
+      <Text style={styles.exerciseSubtitle}>
+        {item.muscle.toLocaleUpperCase()} | {item.equipment.toLocaleUpperCase()}
+        </Text>
+      <StatusBar style="auto" />
+    </Pressable>
+   </Link>
   )
 }
 
