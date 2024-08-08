@@ -1,6 +1,6 @@
 import { View, Text, StyleSheet, ScrollView, TouchableOpacity } from "react-native";
 import { Stack, useLocalSearchParams } from "expo-router";
-import exercises from '../../assets/data/exercises.json'; 
+import exercises from '../../../assets/data/exercises.json'; 
 import { useState } from "react";
 import Icon from 'react-native-vector-icons/MaterialIcons';
 export default function ExerciseDetailScreen(){
@@ -35,9 +35,9 @@ export default function ExerciseDetailScreen(){
 
     return(
     <View>
-    <View>
-        <Stack.Screen options={{ title: exercise.name, headerTitleAlign: 'center' }} />
-    </View>
+      <View>
+        <Stack.Screen options={{ title:exercise.name }} />
+      </View>
     <ScrollView contentContainerStyle={styles.container}>
       <View style={styles.header}>
         <TouchableOpacity onPress={handlePrevious} disabled={currentIndex === 0}>
