@@ -1,4 +1,4 @@
-import { View, Text, StyleSheet, ScrollView, TouchableOpacity } from "react-native";
+import { View, Text, StyleSheet, ScrollView, TouchableOpacity, Image } from "react-native";
 import { Stack, useLocalSearchParams } from "expo-router";
 import exercises from '../../../assets/data/exercises.json'; 
 import { useState } from "react";
@@ -10,18 +10,18 @@ export default function ExerciseDetailScreen(){
 
     const [currentIndex, setCurretIndex] = useState(0);
 
-    const [exercise, setExercise] = useState(exercises.find((item) => item.name === params.name))
+    // const [exercise, setExercise] = useState(exercises.find((item) => item.name === params.name))
 
     
-    if(!exercise){
-        return <Text> Exercise Not Found</Text>
-    }
+    // if(!exercise){
+    //     return <Text> Exercise Not Found</Text>
+    // }
 
     const handlePrevious = () => {
       if(currentIndex > 0){
         setCurretIndex(currentIndex - 1);
         setIsInstructionExpanded(false);
-        setExercise(exercises[currentIndex])
+        // setExercise(exercises[currentIndex])
       }
     }
 
@@ -29,45 +29,41 @@ export default function ExerciseDetailScreen(){
       if(currentIndex < exercises.length - 1){
         setCurretIndex(currentIndex + 1);
         setIsInstructionExpanded(false);
-        setExercise(exercises[currentIndex])
+        // setExercise(exercises[currentIndex])
       }
     }
 
-    return(
-    <View>
-      <View>
-        <Stack.Screen options={{ title:exercise.name }} />
-      </View>
-    <ScrollView contentContainerStyle={styles.container}>
-      <View style={styles.header}>
-        <TouchableOpacity onPress={handlePrevious} disabled={currentIndex === 0}>
-          <Icon name="chevron-left" size={30} color={currentIndex === 0 ? '#ccc' : '#007BFF'} />
-        </TouchableOpacity>
-        <Text style={styles.title}>{exercise.name}</Text>
-        <TouchableOpacity onPress={handleNext} disabled={currentIndex === exercises.length - 1}>
-          <Icon name="chevron-right" size={30} color={currentIndex === exercises.length - 1 ? '#ccc' : '#007BFF'} />
-        </TouchableOpacity>
-      </View>
+    return(    <View style={styles.container}>
+      <Stack.Screen options={{ title: params.name }} />
+      <ScrollView contentContainerStyle={styles.scrollContainer}>
+        <View style={styles.header}>
+          <TouchableOpacity onPress={handlePrevious} disabled={currentIndex === 0}>
+            <Icon name="chevron-left" size={30} color={currentIndex === 0 ? '#ccc' : '#007BFF'} />
+          </TouchableOpacity>
+          {/* <Text style={styles.title}>{currentExercise.name}</Text> */}
+          <TouchableOpacity onPress={handleNext} disabled={currentIndex === exercises.length - 1}>
+            <Icon name="chevron-right" size={30} color={currentIndex === exercises.length - 1 ? '#ccc' : '#007BFF'} />
+          </TouchableOpacity>
+        </View>
 
-      <View style={styles.detailsContainer}>
-        <Text style={styles.exerciseName}>Exercise Detail: {exercise.name}</Text>
-        <Text style={styles.exerciseSubtitle}>
-          {exercise.muscle.toLocaleUpperCase()} | {exercise.equipment.toLocaleUpperCase()}
-        </Text>
-      </View>
+        <View style={styles.detailsContainer}>
+          <Image source={{ uri: params.image }} style={styles.exerciseImage} />
+          <Text style={styles.exerciseName}>{params.name}</Text>
+          <Text style={styles.exerciseSets}>Sets: {params.sets}</Text>
+        </View>
 
-      <View style={styles.detailsContainer}>
-        <Text style={styles.instructions} numberOfLines={isInstructionExpanded ? 0 : 3}>
-          {exercise.instructions}
-        </Text>
-        <TouchableOpacity onPress={() => setIsInstructionExpanded(!isInstructionExpanded)}>
-          <Text style={styles.seeMore}>{isInstructionExpanded ? 'Collapse' : 'Read More'}</Text>
-        </TouchableOpacity>
-      </View>
-    </ScrollView>
-
+        <View style={styles.instructionsContainer}>
+          <Text style={styles.instructions} numberOfLines={isInstructionExpanded ? 0 : 3}>
+            {params.instructions || 'No instructions available'}
+          </Text>
+          <TouchableOpacity onPress={() => setIsInstructionExpanded(!isInstructionExpanded)}>
+            <Text style={styles.seeMore}>{isInstructionExpanded ? 'Collapse' : 'Read More'}</Text>
+          </TouchableOpacity>
+        </View>
+      </ScrollView>
     </View>
-    );
+  );
+  
 }
 
 const styles = StyleSheet.create({

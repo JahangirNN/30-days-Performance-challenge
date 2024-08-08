@@ -1,50 +1,53 @@
 import { StatusBar } from 'expo-status-bar';
-import { Pressable, StyleSheet, Text, View } from 'react-native';
+import { Image, Pressable, StyleSheet, Text, View } from 'react-native';
 import { Link } from 'expo-router';
 
 export default function ExerciseListItem({item}) {
   return( 
-   <Link href={`/${item.name}`} asChild> 
-    <Pressable style={styles.exerciseContainer}>
-      <Text style={styles.exerciseName}>{item.name}</Text>
-      <Text style={styles.exerciseSubtitle}>
-        {item.muscle.toLocaleUpperCase()} | {item.equipment.toLocaleUpperCase()}
-        </Text>
+   <Link   href={`/exerciseDetail?name=${encodeURIComponent(item.name)}&image=${encodeURIComponent(item.image)}&sets=${encodeURIComponent(item.sets)}`}
+   asChild> 
+      <Pressable style={styles.exerciseContainer}>
+      <Image source={{ uri: item.image }} style={styles.exerciseImage} />
+      <View style={styles.textContent}>
+        <Text style={styles.exerciseName}>{item.name}</Text>
+        <Text style={styles.exerciseSets}>{item.sets} sets</Text>
+      </View>
       <StatusBar style="auto" />
     </Pressable>
-   </Link>
+  </Link>
   )
 }
 
 const styles = StyleSheet.create({
-    container: {
-      flex: 1,
-      backgroundColor: 'gainsboro',
-      justifyContent: 'center',
-      padding:10,
-    },
-    exerciseContainer:{
-      backgroundColor:'#fff',
-      padding:10,
-      gap:5,
-      borderRadius:10,
-      marginHorizontal:2,
-    //shadow
-
-    shadowColor:'#000',
-    textShadowOffset:{
-        width:0,
-        height:1,
-    },
-    shadowOpacity:0.2,
-    shadowRadius:1.42,
-    },
-    exerciseName: {
-      fontSize: 20,
-      fontWeight: '500'
-    },
-    exerciseSubtitle: {
-      color:'dimgray'
-    }
-  });
-  
+  exerciseContainer: {
+    marginBottom: 15,
+    padding: 10,
+    borderRadius: 8,
+    backgroundColor: '#f8f8f8',
+    shadowColor: '#000',
+    shadowOffset: { width: 0, height: 2 },
+    shadowOpacity: 0.2,
+    shadowRadius: 4,
+    elevation: 5,
+    flexDirection: 'row',
+    alignItems: 'center',
+  },
+  exerciseImage: {
+    width: 80,
+    height: 80,
+    borderRadius: 8,
+    marginRight: 10,
+  },
+  textContent: {
+    flex: 1,
+  },
+  exerciseName: {
+    fontSize: 18,
+    fontWeight: 'bold',
+    color: '#333',
+  },
+  exerciseSubtitle: {
+    fontSize: 14,
+    color: '#666',
+  },
+});

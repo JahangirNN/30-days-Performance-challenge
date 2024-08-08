@@ -1,11 +1,35 @@
-import { Link } from 'expo-router';
 import React from 'react';
 import { View, Text, StyleSheet, Pressable, Image } from 'react-native';
+// import { useNavigation } from 'expo-router';
+import { useNavigation } from "@react-navigation/native";
+import { Link, useRouter } from 'expo-router';
 
-export default function DayItem({ day, date, name, description, exercises, image }) {
+export default function DayItem({ day, date, name, description, excersises, image, id }) {
+    // const navigation = useNavigation();
+    const router = useRouter();
+    // const navigation = useNavigation();
+    // const params = useLocalSearchParams();
+    // const { id = id, image = image } = params;
+
+
+    // const item = {
+    //     image: image,
+    //     excersises: excersises,
+    //     id: id
+    // };
+    // console.log(item)
+    const handlePress = () => {
+        // Navigate to `[data].jsx` and pass parameters
+        router.push(`/(listExercise)/[data]?image=${encodeURIComponent(image)}&name=${encodeURIComponent(name)}&description=${encodeURIComponent(description)}&excersises=${encodeURIComponent(JSON.stringify(excersises))}`);
+    };
+
+    const serializedExcersises = encodeURIComponent(JSON.stringify(excersises));
     return (
-        <Link href="/(exercises)" asChild>
-            <Pressable style={styles.itemContainer}>
+        
+        <Link href={`/listExercise/${id}?image=${encodeURIComponent(image)}&excersises=${encodeURIComponent(serializedExcersises)}&name=${encodeURIComponent(name)}&description=${encodeURIComponent(description)}`} asChild>
+            <Pressable 
+                // onPress={handlePress}
+                style={styles.itemContainer}>
                 {/* Day and Date Text */}
                 <Text style={styles.dayText}>{day}</Text>
                 <Text style={styles.dateText}>{date}</Text>
@@ -22,11 +46,11 @@ export default function DayItem({ day, date, name, description, exercises, image
                     <View style={styles.textContent}>
                         <Text style={styles.exerciseName}>{name}</Text>
                         <Text style={styles.exerciseDescription}>{description}</Text>
-                        <Text style={styles.exerciseDetails}>{exercises}</Text>
+                        <Text style={styles.exerciseDetails}>{excersises}</Text>
                     </View>
                 </View>
             </Pressable>
-        </Link>
+          </Link>
     );
 }
 

@@ -14,8 +14,9 @@ const ExerciseList = () => {
                     date={item.date}
                     name={item.name}
                     description={item.description}
-                    exercises={item.exercises}
+                    exercises={item.excersises}
                     image={item.image}
+                    id={item.id}
                 />
             )}
             keyExtractor={(item) => item.id}
