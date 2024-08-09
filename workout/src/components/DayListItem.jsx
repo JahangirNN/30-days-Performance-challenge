@@ -1,28 +1,8 @@
 import React from 'react';
 import { View, Text, StyleSheet, Pressable, Image } from 'react-native';
-// import { useNavigation } from 'expo-router';
-import { useNavigation } from "@react-navigation/native";
-import { Link, useRouter } from 'expo-router';
+import { Link } from 'expo-router';
 
 export default function DayItem({ day, date, name, description, excersises, image, id }) {
-    // const navigation = useNavigation();
-    const router = useRouter();
-    // const navigation = useNavigation();
-    // const params = useLocalSearchParams();
-    // const { id = id, image = image } = params;
-
-
-    // const item = {
-    //     image: image,
-    //     excersises: excersises,
-    //     id: id
-    // };
-    // console.log(item)
-    const handlePress = () => {
-        // Navigate to `[data].jsx` and pass parameters
-        router.push(`/(listExercise)/[data]?image=${encodeURIComponent(image)}&name=${encodeURIComponent(name)}&description=${encodeURIComponent(description)}&excersises=${encodeURIComponent(JSON.stringify(excersises))}`);
-    };
-
     const serializedExcersises = encodeURIComponent(JSON.stringify(excersises));
     return (
         

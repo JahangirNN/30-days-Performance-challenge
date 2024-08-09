@@ -4,7 +4,7 @@ export default function RootLayout() {
     return( 
     <Stack>
         <Stack.Screen name="index" options={{headerShown:false}}/>
-        <Stack.Screen name="(exercises)" options={{headerShown:false}}/>
+        <Stack.Screen name="(detailExercises)" options={{headerShown:false}}/>
     </Stack>
     )
 }
